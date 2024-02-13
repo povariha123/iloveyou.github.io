@@ -239,7 +239,7 @@ function drawText()
     if (frameNumber >= 2750 && frameNumber < 99999)
     {
         context.fillStyle = `rgba(130, 130, 255, ${secondOpacity})`;
-        context.fillText("мы будем самой счастливой парой на свете", canvas.width / 2, (canvas.height / 2 + 50));
+        context.fillText("мы будем самой счастливой парой", canvas.width / 2, (canvas.height / 2 + 50));
         secondOpacity = secondOpacity + 0.01;
     }
 
