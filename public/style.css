@@ -1,0 +1,17 @@
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    cursor: url('./images/pointer.png'), auto;
+}
+
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('./Comic Sans MS.ttf') format('truetype');
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+    background: #111;
+}
